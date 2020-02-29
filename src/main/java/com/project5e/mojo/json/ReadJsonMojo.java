@@ -1,4 +1,4 @@
-package com.project5e.plugin.json;
+package com.project5e.mojo.json;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.parser.Feature;
@@ -133,9 +133,7 @@ public class ReadJsonMojo extends AbstractMojo {
       temp.remove(key);
 
       if (value instanceof Map) {
-        for (Map.Entry<String, Object> entry : ((Map<String, Object>) value).entrySet()) {
-          temp.put(key + "." + entry.getKey(), entry.getValue());
-        }
+        ((Map) value).forEach((key1, value1) -> temp.put(key + "." + key1, value1));
       } else {
         properties.put(key, value.toString());
       }

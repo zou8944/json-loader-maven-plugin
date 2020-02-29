@@ -1,4 +1,4 @@
-package com.project5e.plugin.json;
+package com.project5e.mojo.json;
 
 import org.apache.maven.plugin.MojoExecutionException;
 

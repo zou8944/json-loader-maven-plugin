@@ -1,15 +1,13 @@
-package com.project5e.plugin.json;
+package com.project5e.mojo.json;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.maven.project.MavenProject;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.util.Properties;
 
 import static org.junit.Assert.*;
