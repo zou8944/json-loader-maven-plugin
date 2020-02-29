@@ -14,9 +14,9 @@ Load json file to maven project
     <!-- To use the plugin goals in your POM or parent POM -->
     <plugins>
       <plugin>
-        <groupId>com.project5e.mojo</groupId>
+        <groupId>com.github.zou8944</groupId>
         <artifactId>json-loader-maven-plugin</artifactId>
-        <version>0.0.1</version>
+        <version>1.0.0</version>
         <executions>
           <execution>
             <phase>initialize</phase>

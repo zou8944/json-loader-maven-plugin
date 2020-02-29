@@ -1,4 +1,4 @@
-package com.project5e.mojo.json;
+package com.github.zou8944.mojo.json;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.maven.project.MavenProject;
