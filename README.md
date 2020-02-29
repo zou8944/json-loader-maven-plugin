@@ -1,3 +1,6 @@
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.zou8944/json-loader-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.zou8944/json-loader-maven-plugin)
+
 # json-loader-maven-plugin
 将Json文件加载到Maven工程的properties
 

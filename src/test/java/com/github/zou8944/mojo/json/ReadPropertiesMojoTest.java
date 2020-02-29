@@ -13,7 +13,6 @@ import java.util.Properties;
 import static org.junit.Assert.*;
 
 public class ReadPropertiesMojoTest {
-  private static final String NEW_LINE = System.getProperty("line.separator");
 
   private MavenProject projectStub;
   private ReadJsonMojo readJsonMojo;
